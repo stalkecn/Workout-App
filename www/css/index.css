@@ -119,5 +119,26 @@ body {
 #button {
     text-align:center;
 }
+#buttonC {
+    text-align: center;
 
+}
+#GAW {
+    font-size:30px;
+    font-weight:bold;
+    margin:20px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+    text-shadow: 2px 2px white;
+}
+#CAW {
+    font-size:30px;
+    font-weight:bold;
+    margin:20px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+    text-shadow: 2px 2px white;
+}
         
