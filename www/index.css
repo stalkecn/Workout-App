@@ -75,7 +75,7 @@ body {
     margin:20px;
     overflow:visible;
     padding:0px;
-    text-align:center;
+    text-align: center;
     text-shadow: 2px 2px white;
 
 }
@@ -118,6 +118,11 @@ body {
 }
 #button {
     text-align:center;
+    background-color:blue;
+}
+#buttonC {
+    text-align:center;
+    background-color:blue;
 }
 
         

@@ -69,7 +69,7 @@ body {
     }
 }
 
-#homeSafe {
+#LiftThatShit {
     font-size:30px;
     font-weight:bold;
     margin:20px;
@@ -119,75 +119,5 @@ body {
 #button {
     text-align:center;
 }
-#kidinput{
-        font-size: 30px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:blue;
-        background: black;
-        width: 200px;
-        text-decoration: none;
-        margin-top: 20px;
-}
-#message{
-        font-size: 30px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:blue;
-        background: black;
-        margin-top: 65px;
-        width: 200px;
-}
-#connectcontacts{
-        font-size: 30px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:blue;
-        background: black;
-        margin-top: 65px;
-        width: 200px;
-}
-#homescreen{
-        font-size: 10px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:black;
-        margin-top:60px;
-}
-#kid{
-        font-size: 30px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-    }
-#homescreenkd{
-        font-size: 10px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:black;
-}
-#homescreenm{
-        font-size: 10px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:black;
-}
-#homescreencc{font-size: 10px;
-        font-weight:bold;
-        text-align:center;
-        text-shadow: 2px 2px white;
-        color:black;
-    }
-#addkid{
-    font-size: 12px;
-        font-weight:bold;
-        text-align:center;
-        color:blue;
-}
+
         
