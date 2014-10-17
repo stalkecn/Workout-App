@@ -13,30 +13,25 @@
     <body>
         <div data-role="page" id="home">
             <div data-role="header">
-                 <h1 id="LiftThatShit">Select a Workout Type</h1>
+                 <h1 id="LiftThatShit">Select One or More Body Parts</h1>
             <div data-role="content">
                 </div>
                 </div>
-                    <div id="button">
-                            <button href="page 4.html">
-                             <h1 id="General">General Fitness</h1>
-                            </button>
-                    </div>
-                    <div id="button">
-                            <button href="page 5.html">
-                             <h1 id="Strength">Strength</h1>
-                            </button>
-                    </div>
-                    <div id="button">
-                            <button href="page 6.html">
-                             <h1 id="Endurance">Endurance</h1>
-                            </button>
-                    </div>
+                    <select multiple id="List">
+                        <option value="FullBody">Full Body</option>
+                        <option value="Chest">Chest</option>
+                        <option value="Back">Back</option>
+                        <option value="Shoulders">Shoulders</option>
+                        <option value="Biceps">Biceps</option>
+                        <option value="Triceps">Triceps</option>
+                        <option value="Legs">Legs</option>
+                        <option value="Abs">Abs</option>
+                        <option value="Cardio">Cario</option>
+                    </select>
                 <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
-        </div>
     </body>
 </html>

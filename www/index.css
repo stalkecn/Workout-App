@@ -80,6 +80,39 @@ body {
 
 }
 
+#SAWT {
+    font-size:30px;
+    font-weight:bold;
+    margin:20px;
+    overflow:visible;
+    padding:0px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+
+}
+
+#SAS {
+    font-size:30px;
+    font-weight:bold;
+    margin:20px;
+    overflow:visible;
+    padding:0px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+
+}
+
+#SOOMBP {
+    font-size:30px;
+    font-weight:bold;
+    margin:20px;
+    overflow:visible;
+    padding:0px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+
+}
+
 .event {
     text-align: center;
     border-radius:4px;n        
@@ -124,5 +157,9 @@ body {
     text-align:center;
     background-color:blue;
 }
+#List {
 
+	text-align:center;
+    background-color:blue;
+}
         
