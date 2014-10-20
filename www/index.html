@@ -3,42 +3,152 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.4.min.css" />
         <link rel="stylesheet" type="text/css" href="index.css" />
         <title>LiftThatShit</title>
     </head>
     <body>
+
         <div data-role="page" id="home">
             <div data-role="header">
-                 <h1 id="LiftThatShit">Lift That Shit</h1>
+                 <h1>Lift That Shit</h1>
+            </div>
             <div data-role="content">
-        	</div>
+                <a data-role="button" href="#page-2">Generate a Workout!</a>
+                <a data-role="button" href="#page-2">Customize a Workout!</a>
+    		</div>
+        </div>
+
+
+        <div data-role="page" id="page-2">
+            <div data-role="header">
+            	<a href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">Back</a>
+                <h1>Select a Workout Type</h1>
+            </div>
+            <div data-role="content">
+            	<a data-role="button" href="#page-3">General Fitness</a>
+            	<a data-role="button" href="#page-3">Strength</a>
+            	<a data-role="button" href="#page-3">Endurance</a>
             </div>
         </div>
-                    <div id="button">
-                            <button href="page 2.html">
-                             <h1 id="Generate">Generate a Workout!</h1>
-                            </button>
-                    </div>
-                    <div id="button">
-                            <button href="page 3.html">
-                             <h1 id="Customize">Customize a Workout!</h1>
-                            </button>
-                    </div>
-                <!--<div class="app">-->
-                </div>
+
+
+		<div data-role="page" id="page-3">
+            <div data-role="header">
+            	<a href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">Back</a>
+                <h1>Select a Location</h1>
             </div>
-            <div data-role="footer">
-                
+            <div data-role="content">
+        		<a data-role="button" href="#page-4">Gym</a>
+        		<a data-role="button" href="#page-4">Outside</a>
+        		<a data-role="button" href="#page-4">Indoors</a>
+            </div>
         </div>
+
+		<div data-role="page" id="page-4">
+            <div data-role="header">
+            	<a href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">Back</a>
+                <h1>Select One or More Body Parts</h1>
+            </div>
+				<form>
+				    <fieldset data-role="controlgroup">
+				        <legend>Choose Body Part:</legend>
+				        <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+				        <label for="checkbox-v-2a">Full Body</label>
+				        <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+				        <label for="checkbox-v-2b">Chest</label>
+				        <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+				        <label for="checkbox-v-2c">Back</label>
+				        <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+				        <label for="checkbox-v-2d">Shoulders</label>
+				        <input type="checkbox" name="checkbox-v-2e" id="checkbox-v-2e">
+				        <label for="checkbox-v-2e">Biceps</label>
+				        <input type="checkbox" name="checkbox-v-2f" id="checkbox-v-2f">
+				        <label for="checkbox-v-2f">Triceps</label>
+				        <input type="checkbox" name="checkbox-v-2g" id="checkbox-v-2g">
+				        <label for="checkbox-v-2g">Legs</label>
+				        <input type="checkbox" name="checkbox-v-2h" id="checkbox-v-2h">
+				        <label for="checkbox-v-2h">Abs</label>
+				        <input type="checkbox" name="checkbox-v-2i" id="checkbox-v-2i">
+				        <label for="checkbox-v-2i">Cardio</label>
+				    </fieldset>
+				</form>
+				<footer>
+ 					<a data-role="button" href="#page-5">Submit</a>
+				</footer>
+			</div>
+
+		<div data-role="page" id="page-5">
+            <div data-role="header">
+            	<a href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">Back</a>
+                <h1>Review Selections</h1>
+            </div>
+            	<ul data-role="listview" data-inset="true">
+				    <li data-role="list-divider">Workout Type</li>
+				    <li>General Fitness</li>
+				    <li>Strength</li>
+				    <li>Endurance</li>
+				    <li data-role="list-divider">Location</li>
+				    <li>Gym</li>
+				    <li>Outside</li>
+				    <li>Indoors</li>
+				    <li data-role="list-divider">Body Parts</li>
+				    <li>Full Body</li>
+				    <li>Chest</li>
+				    <li>Back</li>
+				    <li>Shoulders</li>
+				    <li>Biceps</li>
+				    <li>Triceps</li>
+				    <li>Legs</li>
+				    <li>Abs</li>
+				    <li>Cardio</li>
+				</ul>
+				<footer>
+ 					<a data-role="button" href="#page-6">Submit</a>
+				</footer>
+        </div>
+        <div data-role="page" id="page-6">
+            <div data-role="header">
+            	<a href="#" data-rel="back" class="ui-btn ui-icon-back ui-btn-icon-notext ui-corner-all">Back</a>
+                <h1>Workouts</h1>
+            </div>
+            	<ul data-role="listview" data-inset="true">
+	            	<li data-role="list-divider">Full Body</li>
+					    <li href="#page-X">Workout X</li>
+					<li data-role="list-divider">Chest</li>
+					    <li href="#page-X">Workout X</li>    
+					<li data-role="list-divider">Back</li>
+					    <li href="#page-X">Workout X</li>
+					<li data-role="list-divider">Shoulders</li>
+					    <li href="#page-X">Workout X</li> 
+					<li data-role="list-divider">Biceps</li>
+					    <li href="#page-X">Workout X</li>       
+					<li data-role="list-divider">Triceps</li>
+					    <li href="#page-X">Workout X</li>   
+					<li data-role="list-divider">Legs</li>
+					    <li href="#page-X">Workout X</li>   
+					<li data-role="list-divider">Abs</li>
+					    <li href="#page-X">Workout X</li>   
+					<li data-role="list-divider">Cardio</li>
+					    <li href="#page-X">Workout X</li>   
+				</ul>
+        </div>
+
+
+           
+
+
+
+
         <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.4.min.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
-        	</div>
     </body>
 </html>
