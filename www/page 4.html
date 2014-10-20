@@ -7,28 +7,29 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="viewport" content="user-scalable=no, width=device-width" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
         <title>LiftThatShit</title>
     </head>
     <body>
-        <div data-role="page" id="home">
+        <div data-role="page" id="4">
             <div data-role="header">
                  <h1 id="LiftThatShit">Select One or More Body Parts</h1>
             <div data-role="content">
-                </div>
-                </div>
-                    <select multiple id="List">
-                        <option value="FullBody">Full Body</option>
-                        <option value="Chest">Chest</option>
-                        <option value="Back">Back</option>
-                        <option value="Shoulders">Shoulders</option>
-                        <option value="Biceps">Biceps</option>
-                        <option value="Triceps">Triceps</option>
-                        <option value="Legs">Legs</option>
-                        <option value="Abs">Abs</option>
-                        <option value="Cardio">Cario</option>
-                    </select>
-                <script type="text/javascript" src="phonegap.js"></script>
+        	</div>
+            </div>
+        </div>
+        <ul id="bodyparts">
+        	<li><label><input type="checkbox" name="fullbody[]" value="full"> Full Body</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="chest"> Chest</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="back"> Back</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="shoulders"> Shoulders</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="biceps"> Biceps</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="triceps"> Triceps</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="legs"> Legs</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="abs"> Abs</label></li>
+        	<li><label><input type="checkbox" name="fullbody[]" value="cardio"> Cardio</label></li>
+        </ul>
+        <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();

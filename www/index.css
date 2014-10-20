@@ -151,15 +151,20 @@ body {
 }
 #button {
     text-align:center;
-    background-color:blue;
+    height: 75px;
+
 }
 #buttonC {
     text-align:center;
-    background-color:blue;
+    height:75px;
 }
-#List {
-
+#Fullbody {
 	text-align:center;
-    background-color:blue;
+}
+
+#bodyparts {
+	list-style-type: none;
+	width: 100px;
+	margin: 0 auto;
 }
         
